@@ -1,7 +1,9 @@
 # CV Generator
 
 This is tool to generate CV using XSL transformations from content in XML. Output file is html with styles in css, which can be printed to PDF from the browser.
+
 Tested on Linux with xsltproc, Chromium and Firefox.
+
 It addresses following needs:
 - CV content in text format or similar that can be easily edited using any text editor,
 - content stored in home network repo with version control,
@@ -13,8 +15,9 @@ It addresses following needs:
 - modern browser eg. Chromium
 - virtual PDF Printer (print to PDF)
 
-## Generating process
-CV generation  workflow is as follows:
+## Generating flow
+CV generation workflow is as follows:
+
 XML --(XSLT processor)--> HTML --(print to PDF)--> PDF
 
 ## Execution
@@ -53,7 +56,7 @@ You can use existing ./script/make on Linux with xsltproc or any other XSLT proc
 After successful XSLT processing there will be ready ./html/*.html files. Each contains js function to print the content as soon as it is loaded. This is manual step to save ready PDF file
 
 ## Known issues
-1. In some cases, the content may overlap with footer section on PDF as it is rendered in the browser. Then it requires content or style changes to enforce correct content paging. However it is rare.
+1. In some cases, the content may overlap with footer section on PDF as it is rendered in the browser. Then it requires content or style changes to enforce correct content paging. However, it is rare.
 2. Chromium initiated from the terminal may display errors but it does not impact the PDF creation.
 3. Firefox does not support css widow used to enforce paging. In effect, depending on content, footer section may overlap the main content as in 1. Changes to content and styles may help.
 
