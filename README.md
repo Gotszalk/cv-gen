@@ -1,6 +1,6 @@
 # CV Generator
 
-This is tool to generate CV using XSL transformations from content in XML. Output file is html with styles in css, which can be printed to PDF from the browser.
+This is tool to generate CV using XSL transformations from content in XML. Output file is html with styles in css, which can be printed to PDF using the browser.
 
 Tested on Linux with xsltproc, Chromium and Firefox.
 
