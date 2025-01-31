@@ -21,7 +21,7 @@ CV generation workflow is as follows:
 XML --(XSLT processor)--> HTML --(print to PDF)--> PDF
 
 ## Execution
-To run the process on Linux with example data it is enough to run the script:
+To run the process on Linux with example data it is enough to execute the script:
 ```
 ./scripts/make
 ```
@@ -53,7 +53,7 @@ Probably the easiest way will be first experiment on copy of one of ./html/*.htm
 You can use existing ./script/make on Linux with xsltproc or any other XSLT processor. Ideally, it should support parameters passing but if it doesn't you can always change cv/default settings in ./xsl/cv-en.xsl and use the default settings.
 
 ### Generate PDF file
-After successful XSLT processing there will be ready ./html/*.html files. Each contains js function to print the content as soon as it is loaded. This is manual step to save ready PDF file
+After successful XSLT processing there will be ready ./html/*.html files. Each contains js code to print the content as soon as it is loaded. This is manual step to save ready PDF file
 
 ## Known issues
 1. In some cases, the content may overlap with footer section on PDF as it is rendered in the browser. Then it requires content or style changes to enforce correct content paging. However, it is rare.
