@@ -1,0 +1,18 @@
+#!/bin/bash
+
+xsltproc -o ../html/cv-long.html ../xsl/cv.xsl ../xsl/cv-en.xml
+xsltproc --stringparam format "short" -o ../html/cv-short.html ../xsl/cv.xsl ../xsl/cv-en.xml
+xsltproc --stringparam filter "tech" -o ../html/cv-tech.html ../xsl/cv.xsl ../xsl/cv-en.xml
+if [ "$1" == "" ]; then
+	echo "html files have been created in ../html directory. Open your preferred file in chromium and print as pdf."
+	echo "Press any key..."
+	read -n 1
+elif [ "$1" == "long" ]; then
+	chromium-browser ../html/cv-long.html
+elif [ "$1" == "short" ]; then
+	chromium-browser ../html/cv-short.html
+elif [ "$1" == "tech" ]; then
+	chromium-browser --incognito ../html/cv-tech.html
+else
+	echo "unknown option"
+fi

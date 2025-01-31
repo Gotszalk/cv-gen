@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="cv.xsl"?>-->
+<cv>
+	<default>
+		<filter>default</filter>
+		<format>long</format>
+		<coutry-display>no</coutry-display>
+		<edu-display>yes</edu-display>
+	</default>
+<name>John Doe</name>
+<intro>
+	<description>Technical professional with vast experience in solving unsual mysteries.</description>
+	<context>tech</context>
+</intro>
+<intro>
+	<description>Highly skilled and motivated problem-solver | Real team-builder | Total icebreaker | Inspiring leader</description>
+	<context>default</context>
+</intro>
+<sideinfo>
+<personaldata>
+	<description>Personal data:</description>
+	<entry>
+		<category>Address</category>
+		<type>multiline</type>
+		<value><line>Doe Street 1</line></value>
+		<value><line>Doe Town, Doeland</line></value>
+		<value><line>mob. +000 111 222 333</line></value>
+	</entry>
+	<entry>
+		<category>email</category>
+		<type>link</type>
+		<value>john.doe@doe.com</value>
+	</entry>
+	<entry>
+		<category>LinkedIn</category>
+		<type>link</type>
+		<value>www.linkedin.com/in/I-am-JD</value>
+	</entry>
+</personaldata>
+<skillpoints>
+	<description>Skills:</description>
+	<skill>
+		<name>Chit-chat in Doeish</name>
+		<context>tech</context>
+	</skill>
+	<skill>
+		<name>Crazy dancing</name>
+		<context>tech</context>
+	</skill>
+	<skill>
+		<name>Superb cleaning</name>
+		<context>tech default</context>
+	</skill>
+	<skill>
+		<name>Unmanageable Managment</name>
+		<context>tech default</context>
+	</skill>
+	<skill>
+		<name>Shopping Management</name>
+		<context>tech default</context>
+	</skill>
+</skillpoints>
+<languages>
+	<description>Languages:</description>
+	<language>
+		<lang>Doeish</lang>
+		<level>native</level>
+	</language>
+	<language>
+		<lang>English</lang>
+		<level>fluent</level>
+	</language>
+	<language>
+		<lang>Swahili</lang>
+		<level>medium</level>
+	</language>
+	<language>
+		<lang>Basque</lang>
+		<level>beginner</level>
+	</language>
+</languages>
+</sideinfo>
+<maininfo>
+<employment>
+	<description>Experience:</description>
+	<job short='y'>
+		<dates>
+			<from>2021</from>
+			<to>2025</to>
+		</dates>
+		<company>Company</company>
+		<country>Doeland</country>
+		<url></url>
+		<position>
+			<title>Manager</title>
+			<scope>
+				<task>Presenting ideas</task>
+				<context>default</context>
+			</scope>
+			<scope>
+				<task>Googling solutions</task>
+				<context>tech</context>
+			</scope>
+		</position>
+	</job>
+	<job short='y'>
+		<dates>
+			<from>2019</from>
+			<to>2020</to>
+		</dates>
+		<company>Big Shop Co.</company>
+		<country>Doeland</country>
+		<url>http://www.bigshop.com/</url>
+		<position>
+			<title>Top Specialist</title>
+			<scope>
+				<task>Highly specialized tasks</task>
+				<context>default</context>
+			</scope>
+			<scope>
+				<task>Managing unmanageable</task>
+				<context>default</context>
+			</scope>
+		</position>
+	</job>
+		<job short='y'>
+		<dates>
+			<from>2017</from>
+			<to>2018</to>
+		</dates>
+		<company>Local Grocery</company>
+		<country>Doeland</country>
+		<url>https://www.grocery.com/</url>
+		<position>
+			<title>Specialist</title>
+			<scope>
+				<task>Getting things done</task>
+				<context>default</context>
+			</scope>
+			<scope>
+				<task>Negotiating salary</task>
+				<context>default</context>
+			</scope>
+
+		</position>
+	</job>
+		<job short='y'>
+		<dates>
+			<from>2016</from>
+			<to>2017</to>
+		</dates>
+		<company>Mom&amp;Pop Shop</company>
+		<country>Doeland</country>
+		<url>https://www.momandpop.com</url>
+		<position>
+			<title>Mom Assistant</title>
+			<scope>
+				<task>Helping Mom with important tasks</task>
+				<context>default</context>
+			</scope>
+			<scope>
+				<task>Cleaning shop</task>
+				<context>default</context>
+			</scope>
+		</position>
+		<position>
+			<title>Pop Assistant</title>
+			<scope>
+				<task>Helping Pop with important tasks</task>
+				<context>default</context>
+			</scope>
+			<scope>
+				<task>Helping Granny from time to time</task>
+				<context>default</context>
+			</scope>
+		</position>
+	</job>
+	<job>
+		<dates>
+			<from>2014</from>
+			<to>2015</to>
+		</dates>
+		<company>Dancing School in Doeville</company>
+		<country>Doeland</country>
+		<url></url>
+		<position>
+			<title>Dancer</title>
+			<scope>
+				<task>dancing like crazy</task>
+				<context>default</context>
+			</scope>
+			<scope>
+				<task>Task I'd rather would not mention</task>
+				<context>tech</context>
+			</scope>
+		</position>
+	</job>
+	<!--
+	<job>
+		<dates>
+			<from></from>
+			<to></to>
+		</dates>
+		<company></company>
+		<country></country>
+		<url></url>
+		<position>
+			<title></title>
+			<scope>
+				<task></task>
+				<context></context>
+			</scope>
+		</position>
+	</job>
+	-->
+</employment>
+<education>
+	<description>Education:</description>
+	<school>
+		<context>default</context>
+		<dates>
+			<from>2015</from>
+			<to>2020</to>
+		</dates>
+		<name>College in Doeburg</name>
+		<profile>chemistry</profile>
+		<title>bachelor</title>
+	</school>
+	<school>
+		<context>default tech</context>
+		<dates>
+			<from>2008</from>
+			<to>2014</to>
+		</dates>
+		<name>Elementary School in Doeville</name>
+		<profile></profile>
+		<title>super pupil</title>
+	</school>
+	<school>
+		<context>tech</context>
+		<dates>
+			<from>2004</from>
+			<to>2007</to>
+		</dates>
+		<name>Kindergarden in Doe Town</name>
+		<profile></profile>
+		<title>not graduated</title>
+	</school>
+	<!--
+	<school>
+		<context></context>
+		<dates>
+			<from></from>
+			<to></to>
+		<dates>
+		<name></name>
+		<profile></profile>
+		<title></title>
+	</school>
+	-->
+</education>
+</maininfo>
+<footer>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</footer>
+</cv>
