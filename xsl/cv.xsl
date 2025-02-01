@@ -99,10 +99,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<xsl:attribute name="href">
 					<xsl:choose>
 						<xsl:when test="category='email'">
-							email://<xsl:value-of select="value" />
+							<xsl:value-of select="concat('mailto:', value)" />
 						</xsl:when>
 						<xsl:when test="not(starts-with(value, 'http'))">
-							https://<xsl:value-of select="value" />
+							<xsl:value-of select="concat('https://', value)" />
 						</xsl:when>
 						<xsl:otherwise>
 							<xsl:value-of select="value" />
