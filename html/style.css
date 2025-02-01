@@ -51,6 +51,7 @@ div.rightside {
 	font-size: 12pt;
 	font-weight: bold;
 	margin: 7mm 5mm 0 0;
+	break-after: avoid;
 }
 div.employment {
 	widows: 0;
